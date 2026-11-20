@@ -9,10 +9,10 @@ editor: visual
 
 There are **two main topics** in *statistical inference*:
 
-* Confidence intervals, 
-* Hypothesis testing. 
+- Confidence intervals,
+- Hypothesis testing.
 
-You can read about them [in the script by Dr B](https://blazejkochanski-statystyka2.share.connect.posit.cloud/). 
+You can read about them [in the script by Dr B](https://blazejkochanski-statystyka2.share.connect.posit.cloud/).
 
 ### Confidence intervals
 
@@ -22,27 +22,19 @@ Examples:
 
 Examples:
 
-'''{r}
-library(ggplot2)
-data(mtcars)
-ggplot(mtcars, aes(x=qsec))+geom_histogram()
-'''
+$$ H_0: p = 0.5 $$
 
-
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
+### Plot test
 
 ```{r}
 #| echo: false
-2 * 2
+#| warning: false
+#| fig-cap: Histogram of qsec
+library(ggplot2)
+ggplot(mtcars, aes(x=qsec))+geom_histogram()
+
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+### LaTeX formatting test
+
+$$ \sigma_X = \sqrt{\frac{\sum_{i=1}^n (x-\mu)^2}{n}}$$
