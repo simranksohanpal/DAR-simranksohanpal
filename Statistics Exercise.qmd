@@ -6,7 +6,7 @@ editor: visual
 
 ## Statistical Inference
 
-There are two main topics in statistical inference:
+There are **two main topics** in *statistical inference*:
 * Confidence intervals,
 * Hypothesis testing.
 
