@@ -7,8 +7,19 @@ editor: visual
 ## Statistical Inference
 
 There are **two main topics** in *statistical inference*:
-* Confidence intervals,
-* Hypothesis testing.
+
+* Confidence intervals, 
+* Hypothesis testing. 
+
+You can read about them [in the script by Dr B](https://blazejkochanski-statystyka2.share.connect.posit.cloud/). 
+
+### Confidence intervals
+
+Examples:
+
+### Hypothesis testing
+
+Examples:
 
 
 ## Running Code
