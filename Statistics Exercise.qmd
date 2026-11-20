@@ -1,6 +1,7 @@
 ---
 title: "Simran Statistics Exercise"
 format: html
+toc: true
 editor: visual
 ---
 
